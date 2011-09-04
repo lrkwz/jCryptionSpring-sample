@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_it_more_kbs_domain_UserProfile" items="${userprofiles}" z="RYtL5+JiZl6jGH/+nDABYZqZm+I=">
+        <table:table data="${userprofiles}" id="l_it_more_kbs_domain_UserProfile" path="/userprofiles" z="oU+n5Jl23xLrTFt5e8KYjyX9+E4=">
+            <table:column id="c_it_more_kbs_domain_UserProfile_surname" property="surname" z="wVvZiYc+vTTiao+oupK5GWyJd9w="/>
+            <table:column id="c_it_more_kbs_domain_UserProfile_name" property="name" z="aUC1SuxVb3dRnkRnhfAmjBGpOys="/>
+            <table:column id="c_it_more_kbs_domain_UserProfile_emailAddress" property="emailAddress" z="Kh6VxEgKFEhCjEBSsrhXGxRX3x4="/>
+            <table:column id="c_it_more_kbs_domain_UserProfile_password" property="password" z="0JjA6A7axvYpJrNAelfmiHrQWXU="/>
+            <table:column id="c_it_more_kbs_domain_UserProfile_gender" property="gender" z="a5Z7Qx7LWKZfv8kgvBHtTuFkbX0="/>
+            <table:column id="c_it_more_kbs_domain_UserProfile_acceptServiceAgreement" property="acceptServiceAgreement" z="0/15Vej0eo5KnYhXBmW+Izo1YHk="/>
+        </table:table>
+    </page:list>
+</div>
