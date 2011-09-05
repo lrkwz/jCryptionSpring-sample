@@ -7,7 +7,19 @@
 	<packaging>war</packaging>
 	<version>0.1.0.BUILD-SNAPSHOT</version>
 	<name>jcryption-spring-sample</name>
-	<properties>
+	<developers>
+		<developer>
+			<email>luca.orlandi@gmail.com</email>
+			<name>Luca Orlandi</name>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:git://gitorious.org/jcryptingspring/jcryptionspring-sample.git</connection>
+		<developerConnection>scm:git:ssh://gitorious.org:jcryptingspring/jcryptionspring-sample.git</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://gitorious.org/jcryptingspring/jcryptionspring-sample/trees/master</url>
+	</scm>
+		<properties>
 		<roo.version>1.1.5.RELEASE</roo.version>
 		<spring.version>3.0.5.RELEASE</spring.version>
 		<aspectj.version>1.6.11</aspectj.version>
