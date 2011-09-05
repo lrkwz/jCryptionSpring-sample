@@ -1,10 +1,11 @@
 <div xmlns:spring="http://www.springframework.org/tags" xmlns:fn="http://java.sun.com/jsp/jstl/functions" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
   <jsp:directive.page contentType="text/html;charset=UTF-8" />
   <jsp:output omit-xml-declaration="yes" />
+  <spring:url value="/EncryptionServlet?generateKeypair=true"  var="getKeysURL"/>
     <script>
 /*<![CDATA[ */
 $(function() {
-	$("#f").jCryption({getKeysURL:"EncryptionServlet?generateKeypair=true"});
+	$("#f").jCryption({getKeysURL:"${getKeysURL}"});
 });
 /*]]>*/
 </script>

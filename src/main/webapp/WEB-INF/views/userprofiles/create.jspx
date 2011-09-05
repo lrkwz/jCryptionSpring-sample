@@ -3,25 +3,26 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <script>
+    <spring:url value="/EncryptionServlet?generateKeypair=true"  var="getKeysURL"/>
 /*<![CDATA[ */
 $(function() {
-	$("#userProfile").jCryption({getKeysURL:"EncryptionServlet?generateKeypair=true"});
+	$("#userProfile").jCryption({getKeysURL:"${getKeysURL}"});
 });
 /*]]>*/
 </script>
-    <form:create id="fc_it_more_kbs_domain_UserProfile" modelAttribute="userProfile" path="/userprofiles" render="${empty dependencies}" z="ZMEfTLEpRrwdyYqnXJUIG3jktzI=">
-        <field:textarea field="surname" id="c_it_more_kbs_domain_UserProfile_surname" required="true" z="X447XqA4eNVa0CsT3PBBa/m6l/A="/>
-        <field:textarea field="name" id="c_it_more_kbs_domain_UserProfile_name" required="true" z="eUlxCy/p151ymR2nBABmXJwaus4="/>
-        <field:input field="emailAddress" id="c_it_more_kbs_domain_UserProfile_emailAddress" required="true" validationMessageCode="field_invalid_email" z="KiulrxDNE8gpIVwohJp2LXowErU="/>
-        <field:input field="password" id="c_it_more_kbs_domain_UserProfile_password" z="KasBID8m8zB4rXgvZIldIgn7IYo="/>
-        <field:input field="gender" id="c_it_more_kbs_domain_UserProfile_gender" required="true" validationRegex="M|m|F|f" z="14CN3A+NVJTlM18tcp6oCNH2d+k="/>
-        <field:checkbox field="acceptServiceAgreement" id="c_it_more_kbs_domain_UserProfile_acceptServiceAgreement" z="user-managed"/>
-        <field:checkbox field="acceptProductMarketing" id="c_it_more_kbs_domain_UserProfile_acceptProductMarketing" z="user-managed"/>
-        <field:checkbox field="acceptProfiling" id="c_it_more_kbs_domain_UserProfile_acceptProfiling" z="user-managed"/>
-        <field:input field="cellPhone" id="c_it_more_kbs_domain_UserProfile_cellPhone" validationRegex="(^(\\+[1-9][0-9]*(\\([0-9]*\\)|-[0-9]*-)?)?[0]?[1-9][0-9\\- ]*$)|^$" z="uVZqW35wJxcSnQ9mJ0gpirykBcI="/>
-        <field:datetime dateTimePattern="${userProfile_birthdate_date_format}" field="birthDate" id="c_it_more_kbs_domain_UserProfile_birthDate" past="true" required="true" z="SM7FkbZ8wYBpy+xTPYZfvy++pfk="/>
-        <field:checkbox field="enabled" id="c_it_more_kbs_domain_UserProfile_enabled" z="user-managed"/>
-        <field:input field="browsingLanguage" id="c_it_more_kbs_domain_UserProfile_browsingLanguage" z="Mubeoadfx7p6ew/2YdZ0tQvdw6g="/>
+    <form:create id="fc_org_lrkwz_kbs_domain_UserProfile" modelAttribute="userProfile" path="/userprofiles" render="${empty dependencies}" z="Ozu4bgwhyBK3do7jZzzXlTvTA2g=">
+        <field:textarea field="surname" id="c_org_lrkwz_kbs_domain_UserProfile_surname" required="true" z="zFbNEziR7SJvYebbYFAzP1DrDls="/>
+        <field:textarea field="name" id="c_org_lrkwz_kbs_domain_UserProfile_name" required="true" z="fRrqfI5Xaw4oA+yu43C+8JpUDxQ="/>
+        <field:input field="emailAddress" id="c_org_lrkwz_kbs_domain_UserProfile_emailAddress" required="true" validationMessageCode="field_invalid_email" z="07VjIObUuRjBCoAY9y7fBejGM+w="/>
+        <field:input field="password" id="c_org_lrkwz_kbs_domain_UserProfile_password" z="cyJRZNnfaxdtJt292xzOESP7oW4="/>
+        <field:input field="gender" id="c_org_lrkwz_kbs_domain_UserProfile_gender" required="true" validationRegex="M|m|F|f" z="Al/HvL1ni6M5KOCllLQ6dI5H8zY="/>
+        <field:checkbox field="acceptServiceAgreement" id="c_org_lrkwz_kbs_domain_UserProfile_acceptServiceAgreement" required="true" z="50xaURn2jx9XzmU67wjFMzEAbZ8="/>
+        <field:checkbox field="acceptProductMarketing" id="c_org_lrkwz_kbs_domain_UserProfile_acceptProductMarketing" required="true" z="tXVb4oIAJjhukbiPvoig2slbl0Q="/>
+        <field:checkbox field="acceptProfiling" id="c_org_lrkwz_kbs_domain_UserProfile_acceptProfiling" required="true" z="Pp1/sbvb3WaCcsbXkCsIpE6aSu4="/>
+        <field:input field="cellPhone" id="c_org_lrkwz_kbs_domain_UserProfile_cellPhone" validationRegex="(^(\\+[1-9][0-9]*(\\([0-9]*\\)|-[0-9]*-)?)?[0]?[1-9][0-9\\- ]*$)|^$" z="dKmXZte4PQFaeWbNUF6+TWbuo84="/>
+        <field:datetime dateTimePattern="${userProfile_birthdate_date_format}" field="birthDate" id="c_org_lrkwz_kbs_domain_UserProfile_birthDate" past="true" required="true" z="81yQKsn7s6UQvXgKsdzoOYUuPUI="/>
+        <field:checkbox field="enabled" id="c_org_lrkwz_kbs_domain_UserProfile_enabled" required="true" z="FUnDKADP3PnH97ggaOjuO1JyM3k="/>
+        <field:input field="browsingLanguage" id="c_org_lrkwz_kbs_domain_UserProfile_browsingLanguage" z="KqUiIF7/au69UF7sGcVfqkp1whs="/>
     </form:create>
-    <form:dependency dependencies="${dependencies}" id="d_it_more_kbs_domain_UserProfile" render="${not empty dependencies}" z="VIuvW8m+qUx3LdyfC4upX1eVNj4="/>
+    <form:dependency dependencies="${dependencies}" id="d_org_lrkwz_kbs_domain_UserProfile" render="${not empty dependencies}" z="5VsyL/6qeSKH8IvqCDPpLukUss8="/>
 </div>

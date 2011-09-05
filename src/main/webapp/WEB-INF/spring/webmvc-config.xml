@@ -7,7 +7,7 @@
 
 	<!-- The controllers are autodetected POJOs labeled with the @Controller 
 		annotation. -->
-	<context:component-scan base-package="it.more"
+	<context:component-scan base-package="org.lrkwz"
 		use-default-filters="false">
 		<context:include-filter expression="org.springframework.stereotype.Controller"
 			type="annotation" />
@@ -31,10 +31,6 @@
 		<bean class="org.springframework.web.servlet.theme.ThemeChangeInterceptor" />
 		<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor"
 			p:paramName="lang" />
-<!-- 		<mvc:interceptor> -->
-<!-- 			<mvc:mapping path="/userprofiles" /> -->
-<!-- 			<bean class="it.more.jcryption.ParameterDecryptingInterceptor" /> -->
-<!-- 		</mvc:interceptor> -->
 	</mvc:interceptors>
 
 	<!-- selects a static view for rendering without the need for an explicit 
@@ -105,6 +101,6 @@
 			</list>
 		</property>
 	</bean>
-	<bean class="it.more.kbs.web.ApplicationConversionServiceFactoryBean"
+	<bean class="org.lrkwz.kbs.web.ApplicationConversionServiceFactoryBean"
 		id="applicationConversionService" />
 </beans>

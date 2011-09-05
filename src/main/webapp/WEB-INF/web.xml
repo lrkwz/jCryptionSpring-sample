@@ -52,7 +52,7 @@
 	</filter>
 	<filter>
 		<filter-name>DecryptParameters</filter-name>
-		<filter-class>it.more.jcryption.ParameterDecryptingFilter</filter-class>
+		<filter-class>org.lrkwz.jcryption.ParameterDecryptingFilter</filter-class>
 	</filter>
 	<filter-mapping>
 		<filter-name>CharacterEncodingFilter</filter-name>

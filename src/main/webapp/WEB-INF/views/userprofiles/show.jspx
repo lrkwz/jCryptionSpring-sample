@@ -2,18 +2,18 @@
 <div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <page:show id="ps_it_more_kbs_domain_UserProfile" object="${userprofile}" path="/userprofiles" z="tCb5YyeWfPaboCPDm5JuQsyJp1w=">
-        <field:display field="surname" id="s_it_more_kbs_domain_UserProfile_surname" object="${userprofile}" z="gSKyEW2L8aNTM5jG6++tVCE10I4="/>
-        <field:display field="name" id="s_it_more_kbs_domain_UserProfile_name" object="${userprofile}" z="y8pw8gWAIiKgZwMaaDf1iH8V6ZU="/>
-        <field:display field="emailAddress" id="s_it_more_kbs_domain_UserProfile_emailAddress" object="${userprofile}" z="FZ0GpVMKKxH6djn3fR+r79r5nuQ="/>
-        <field:display field="password" id="s_it_more_kbs_domain_UserProfile_password" object="${userprofile}" z="CP+cs6+rILYq0MqQ4LM/nbsHd2w="/>
-        <field:display field="gender" id="s_it_more_kbs_domain_UserProfile_gender" object="${userprofile}" z="yRZ4uDHqU6pCZjfVjiy/Z5Knj90="/>
-        <field:display field="acceptServiceAgreement" id="s_it_more_kbs_domain_UserProfile_acceptServiceAgreement" object="${userprofile}" z="2+lDIYdN/SJL3GIY9wzdWNdEPvI="/>
-        <field:display field="acceptProductMarketing" id="s_it_more_kbs_domain_UserProfile_acceptProductMarketing" object="${userprofile}" z="2pmiS/lqopGIwSTlChG0+o1vjGY="/>
-        <field:display field="acceptProfiling" id="s_it_more_kbs_domain_UserProfile_acceptProfiling" object="${userprofile}" z="+wa9imhNZGuH5ajsiRWAuFtHhuM="/>
-        <field:display field="cellPhone" id="s_it_more_kbs_domain_UserProfile_cellPhone" object="${userprofile}" z="eOlDWpfzVlkOBHmYFQ6QDk5IXBs="/>
-        <field:display calendar="true" dateTimePattern="${userProfile_birthdate_date_format}" field="birthDate" id="s_it_more_kbs_domain_UserProfile_birthDate" object="${userprofile}" z="ZBsKHEvLIYjE2e2vVqc1AExJvwI="/>
-        <field:display field="enabled" id="s_it_more_kbs_domain_UserProfile_enabled" object="${userprofile}" z="kFohFSlHyZT+L3xEdyipQb6ILdk="/>
-        <field:display field="browsingLanguage" id="s_it_more_kbs_domain_UserProfile_browsingLanguage" object="${userprofile}" z="wTdKiekbnmJy7Gv4AK8szBkgIZ8="/>
+    <page:show id="ps_org_lrkwz_kbs_domain_UserProfile" object="${userprofile}" path="/userprofiles" z="3UP6c22ac1NPQPUIiQeTGHxZjlE=">
+        <field:display field="surname" id="s_org_lrkwz_kbs_domain_UserProfile_surname" object="${userprofile}" z="M6o0rlTewRHPQE0oLnSZ3sPS9S4="/>
+        <field:display field="name" id="s_org_lrkwz_kbs_domain_UserProfile_name" object="${userprofile}" z="h5M25/akSZooMlXfEY8yijXTUjI="/>
+        <field:display field="emailAddress" id="s_org_lrkwz_kbs_domain_UserProfile_emailAddress" object="${userprofile}" z="DHvwca22H0WFeTF5zD9lM62Oorc="/>
+        <field:display field="password" id="s_org_lrkwz_kbs_domain_UserProfile_password" object="${userprofile}" z="u4jKTlKWgfEMicbLgejvLmxV4I8="/>
+        <field:display field="gender" id="s_org_lrkwz_kbs_domain_UserProfile_gender" object="${userprofile}" z="SnN5u2yLSwb8dDZs3HmoUheOD0Q="/>
+        <field:display field="acceptServiceAgreement" id="s_org_lrkwz_kbs_domain_UserProfile_acceptServiceAgreement" object="${userprofile}" z="ikBsRLF95K6zxc5HL8BWnmMC63k="/>
+        <field:display field="acceptProductMarketing" id="s_org_lrkwz_kbs_domain_UserProfile_acceptProductMarketing" object="${userprofile}" z="TZC++k3lf5hz13gZIaU09KzgDjc="/>
+        <field:display field="acceptProfiling" id="s_org_lrkwz_kbs_domain_UserProfile_acceptProfiling" object="${userprofile}" z="WP2/vCkgxeo/0Qa2g67MxQO2aww="/>
+        <field:display field="cellPhone" id="s_org_lrkwz_kbs_domain_UserProfile_cellPhone" object="${userprofile}" z="5oYDB1AxccvEeB5mgVT//USwo4Y="/>
+        <field:display calendar="true" dateTimePattern="${userProfile_birthdate_date_format}" field="birthDate" id="s_org_lrkwz_kbs_domain_UserProfile_birthDate" object="${userprofile}" z="N/glhUo/6LGnhE6iAjkDUr5oZgY="/>
+        <field:display field="enabled" id="s_org_lrkwz_kbs_domain_UserProfile_enabled" object="${userprofile}" z="C3Dk0/PXpmD4ApvQhUc323IRceY="/>
+        <field:display field="browsingLanguage" id="s_org_lrkwz_kbs_domain_UserProfile_browsingLanguage" object="${userprofile}" z="A0L18jyu/mUKr59kmjNX0T1rkNQ="/>
     </page:show>
 </div>
