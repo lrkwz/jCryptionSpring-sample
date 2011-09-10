@@ -2,8 +2,8 @@
 <div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-    <form:find finderName="BySurnameAndName" id="ff_org_lrkwz_kbs_domain_UserProfile" path="/userprofiles" z="XslyyuzyBiOhmQBUN/UHdLKtuDA=">
-        <field:input disableFormBinding="true" field="surname" id="f_org_lrkwz_kbs_domain_UserProfile_surname" max="255" required="true" z="CWc4EndnrQ33F4p1XoDL0zZWSjw="/>
-        <field:input disableFormBinding="true" field="name" id="f_org_lrkwz_kbs_domain_UserProfile_name" max="255" required="true" z="f281BsBlYRuy3gCqF5M0Xtc4IE0="/>
+    <form:find finderName="BySurnameAndName" id="ff_org_gitorious_jcryptionspring_sample_domain_UserProfile" path="/userprofiles" z="qzPnmmKAvBj9BxD6vSxxWbyWD7E=">
+        <field:input disableFormBinding="true" field="surname" id="f_org_gitorious_jcryptionspring_sample_domain_UserProfile_surname" max="255" required="true" z="G4Pp2+KFecVg+2DG1t6GjiKEAJk="/>
+        <field:input disableFormBinding="true" field="name" id="f_org_gitorious_jcryptionspring_sample_domain_UserProfile_name" max="255" required="true" z="XVlL1TogWdKc+4TkzsHzReNSMyc="/>
     </form:find>
 </div>

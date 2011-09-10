@@ -101,6 +101,6 @@
 			</list>
 		</property>
 	</bean>
-	<bean class="org.lrkwz.kbs.web.ApplicationConversionServiceFactoryBean"
+	<bean class="org.gitorious.jcryptionspring.sample.web.ApplicationConversionServiceFactoryBean"
 		id="applicationConversionService" />
 </beans>

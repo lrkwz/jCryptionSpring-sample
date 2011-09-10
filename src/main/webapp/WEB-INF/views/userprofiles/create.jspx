@@ -3,26 +3,26 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <script>
-    <spring:url value="/EncryptionServlet?generateKeypair=true"  var="getKeysURL"/>
+        <spring:url value="/EncryptionServlet?generateKeypair=true" var="getKeysURL"/>
 /*<![CDATA[ */
 $(function() {
 	$("#userProfile").jCryption({getKeysURL:"${getKeysURL}"});
 });
 /*]]>*/
 </script>
-    <form:create id="fc_org_lrkwz_kbs_domain_UserProfile" modelAttribute="userProfile" path="/userprofiles" render="${empty dependencies}" z="Ozu4bgwhyBK3do7jZzzXlTvTA2g=">
-        <field:textarea field="surname" id="c_org_lrkwz_kbs_domain_UserProfile_surname" required="true" z="zFbNEziR7SJvYebbYFAzP1DrDls="/>
-        <field:textarea field="name" id="c_org_lrkwz_kbs_domain_UserProfile_name" required="true" z="fRrqfI5Xaw4oA+yu43C+8JpUDxQ="/>
-        <field:input field="emailAddress" id="c_org_lrkwz_kbs_domain_UserProfile_emailAddress" required="true" validationMessageCode="field_invalid_email" z="07VjIObUuRjBCoAY9y7fBejGM+w="/>
-        <field:input field="password" id="c_org_lrkwz_kbs_domain_UserProfile_password" z="cyJRZNnfaxdtJt292xzOESP7oW4="/>
-        <field:input field="gender" id="c_org_lrkwz_kbs_domain_UserProfile_gender" required="true" validationRegex="M|m|F|f" z="Al/HvL1ni6M5KOCllLQ6dI5H8zY="/>
-        <field:checkbox field="acceptServiceAgreement" id="c_org_lrkwz_kbs_domain_UserProfile_acceptServiceAgreement" required="true" z="50xaURn2jx9XzmU67wjFMzEAbZ8="/>
-        <field:checkbox field="acceptProductMarketing" id="c_org_lrkwz_kbs_domain_UserProfile_acceptProductMarketing" required="true" z="tXVb4oIAJjhukbiPvoig2slbl0Q="/>
-        <field:checkbox field="acceptProfiling" id="c_org_lrkwz_kbs_domain_UserProfile_acceptProfiling" required="true" z="Pp1/sbvb3WaCcsbXkCsIpE6aSu4="/>
-        <field:input field="cellPhone" id="c_org_lrkwz_kbs_domain_UserProfile_cellPhone" validationRegex="(^(\\+[1-9][0-9]*(\\([0-9]*\\)|-[0-9]*-)?)?[0]?[1-9][0-9\\- ]*$)|^$" z="dKmXZte4PQFaeWbNUF6+TWbuo84="/>
-        <field:datetime dateTimePattern="${userProfile_birthdate_date_format}" field="birthDate" id="c_org_lrkwz_kbs_domain_UserProfile_birthDate" past="true" required="true" z="81yQKsn7s6UQvXgKsdzoOYUuPUI="/>
-        <field:checkbox field="enabled" id="c_org_lrkwz_kbs_domain_UserProfile_enabled" required="true" z="FUnDKADP3PnH97ggaOjuO1JyM3k="/>
-        <field:input field="browsingLanguage" id="c_org_lrkwz_kbs_domain_UserProfile_browsingLanguage" z="KqUiIF7/au69UF7sGcVfqkp1whs="/>
+    <form:create id="fc_org_gitorious_jcryptionspring_sample_domain_UserProfile" modelAttribute="userProfile" path="/userprofiles" render="${empty dependencies}" z="UjjJnNsd72qmCD/z7pNRmFs3S7U=">
+        <field:textarea field="surname" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_surname" required="true" z="A1W6Kv3q14mGLt0bQPpa9V1mSKQ="/>
+        <field:textarea field="name" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_name" required="true" z="JMVttZUXsBuRz2LEsOf/Mv8iMBQ="/>
+        <field:input field="emailAddress" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_emailAddress" required="true" validationMessageCode="field_invalid_email" z="afPOo2GYh8Q4D1IrXDM7nHNw6s0="/>
+        <field:input field="password" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_password" z="4DEoZImo/vuEtc5V8sh41/IkGDA="/>
+        <field:input field="gender" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_gender" required="true" validationRegex="M|m|F|f" z="cmcZQAUQC8XE37zzDzpEBGY4yDI="/>
+        <field:checkbox field="acceptServiceAgreement" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_acceptServiceAgreement" required="true" z="Xk5ueDo6Dv+nBFbs4Rz7I4Xj+jc="/>
+        <field:checkbox field="acceptProductMarketing" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_acceptProductMarketing" required="true" z="45/N5LT48I9OQys8LIVx5loWV7c="/>
+        <field:checkbox field="acceptProfiling" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_acceptProfiling" required="true" z="5qw9KGdIvnPMV3+POkJHNzAeHb8="/>
+        <field:input field="cellPhone" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_cellPhone" validationRegex="(^(\\+[1-9][0-9]*(\\([0-9]*\\)|-[0-9]*-)?)?[0]?[1-9][0-9\\- ]*$)|^$" z="LXtmPwltZFJf6wdWdtVy0P7M+bE="/>
+        <field:datetime dateTimePattern="${userProfile_birthdate_date_format}" field="birthDate" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_birthDate" past="true" required="true" z="XcGo9p0yebtIiQlKBT1dc6o3Pe4="/>
+        <field:checkbox field="enabled" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_enabled" required="true" z="vKdbHdSoQ6/XZrfkqUKMcy9sLDo="/>
+        <field:input field="browsingLanguage" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_browsingLanguage" z="HPWMNxgb2FxA/Ia8mcwv30S+Y8I="/>
     </form:create>
-    <form:dependency dependencies="${dependencies}" id="d_org_lrkwz_kbs_domain_UserProfile" render="${not empty dependencies}" z="5VsyL/6qeSKH8IvqCDPpLukUss8="/>
+    <form:dependency dependencies="${dependencies}" id="d_org_gitorious_jcryptionspring_sample_domain_UserProfile" render="${not empty dependencies}" z="vt2Y9pHIqB7CDsRoL+lccZade9o="/>
 </div>
