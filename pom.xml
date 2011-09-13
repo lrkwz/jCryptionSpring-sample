@@ -5,7 +5,7 @@
 	<groupId>org.gitorious.jcryptionspring</groupId>
 	<artifactId>jcryption-spring-sample</artifactId>
 	<packaging>war</packaging>
-	<version>0.1.0.BUILD-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 	<name>jcryption-spring-sample</name>
 	<developers>
 		<developer>
@@ -416,7 +416,7 @@
 		<dependency>
 			<groupId>org.gitorious.jcryptionspring</groupId>
 			<artifactId>jcryption-spring</artifactId>
-			<version>0.1.0.BUILD-SNAPSHOT</version>
+			<version>0.1.0.BUILD</version>
 		</dependency>
 	</dependencies>
 	<build>
