@@ -18,15 +18,6 @@
       </a>
     </span>
   </c:if>
-  <c:if test="${pageContext['request'].userPrincipal == null}">
-    <c:out value=" | "/>
-    <span>
-      <spring:url value="/login" var="login"/>
-      <a href="${login}">
-        <spring:message code="security_login"/>
-      </a>
-    </span>
-  </c:if>
 
   <span id="language">
     <c:out value=" | "/>

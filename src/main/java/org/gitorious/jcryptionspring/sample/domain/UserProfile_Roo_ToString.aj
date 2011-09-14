@@ -9,20 +9,13 @@ privileged aspect UserProfile_Roo_ToString {
     
     public String UserProfile.toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("BirthDate: ").append(getBirthDate() == null ? "null" : getBirthDate().getTime()).append(", ");
-        sb.append("BrowsingLanguage: ").append(getBrowsingLanguage()).append(", ");
-        sb.append("CellPhone: ").append(getCellPhone()).append(", ");
-        sb.append("EmailAddress: ").append(getEmailAddress()).append(", ");
-        sb.append("Gender: ").append(getGender()).append(", ");
+        sb.append("Birthday: ").append(getBirthday() == null ? "null" : getBirthday().getTime()).append(", ");
+        sb.append("Email: ").append(getEmail()).append(", ");
+        sb.append("Enabled: ").append(getEnabled()).append(", ");
         sb.append("Id: ").append(getId()).append(", ");
         sb.append("Name: ").append(getName()).append(", ");
-        sb.append("Password: ").append(getPassword()).append(", ");
         sb.append("Surname: ").append(getSurname()).append(", ");
-        sb.append("Version: ").append(getVersion()).append(", ");
-        sb.append("AcceptProductMarketing: ").append(isAcceptProductMarketing()).append(", ");
-        sb.append("AcceptProfiling: ").append(isAcceptProfiling()).append(", ");
-        sb.append("AcceptServiceAgreement: ").append(isAcceptServiceAgreement()).append(", ");
-        sb.append("Enabled: ").append(isEnabled());
+        sb.append("Version: ").append(getVersion());
         return sb.toString();
     }
     

@@ -21,7 +21,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     
     static class org.gitorious.jcryptionspring.sample.web.ApplicationConversionServiceFactoryBean.UserProfileConverter implements Converter<UserProfile, String> {
         public String convert(UserProfile userProfile) {
-            return new StringBuilder().append(userProfile.getSurname()).append(" ").append(userProfile.getName()).append(" ").append(userProfile.getEmailAddress()).append(" ").append(userProfile.getPassword()).toString();
+            return new StringBuilder().append(userProfile.getEmail()).append(" ").append(userProfile.getName()).append(" ").append(userProfile.getSurname()).append(" ").append(userProfile.getBirthday()).toString();
         }
         
     }

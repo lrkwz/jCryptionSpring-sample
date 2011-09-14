@@ -6,9 +6,6 @@
         <menu:category id="c_userprofile" z="2kJ9OpCfQCJw1Bn7dN6zVF1sN3I=">
             <menu:item id="i_userprofile_new" messageCode="global_menu_new" url="/userprofiles?form" z="RYXZPbBQnd8xC3sX9BmwGEMjG7I="/>
             <menu:item id="i_userprofile_list" messageCode="global_menu_list" url="/userprofiles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="9erJNttMn6QObSrmM4/XDGz4+1Y="/>
-            <menu:item id="fi_userprofile_emailaddressandpassword" messageCode="global_menu_find" url="/userprofiles?find=ByEmailAddressAndPassword&amp;form" z="IYQud0FUAAgGY5si0Eu8+oDdFw4="/>
-            <menu:item id="fi_userprofile_surnameandname" messageCode="global_menu_find" url="/userprofiles?find=BySurnameAndName&amp;form" z="6BnfDD6vB4jT4yMYswznDUEI7/U="/>
-            <menu:item id="fi_userprofile_emailaddress" messageCode="global_menu_find" url="/userprofiles?find=ByEmailAddress&amp;form" z="IUTfz9rS7JR6534/okB1uBSsjtw="/>
         </menu:category>
     </menu:menu>
 </div>

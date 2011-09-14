@@ -13,13 +13,4 @@
 <definition extends="default" name="userprofiles/update">
         <put-attribute name="body" value="/WEB-INF/views/userprofiles/update.jspx"/>
     </definition>
-<definition extends="default" name="userprofiles/findUserProfilesByEmailAddressAndPassword">
-        <put-attribute name="body" value="/WEB-INF/views/userprofiles/findUserProfilesByEmailAddressAndPassword.jspx"/>
-    </definition>
-<definition extends="default" name="userprofiles/findUserProfilesBySurnameAndName">
-        <put-attribute name="body" value="/WEB-INF/views/userprofiles/findUserProfilesBySurnameAndName.jspx"/>
-    </definition>
-<definition extends="default" name="userprofiles/findUserProfilesByEmailAddress">
-        <put-attribute name="body" value="/WEB-INF/views/userprofiles/findUserProfilesByEmailAddress.jspx"/>
-    </definition>
 </tiles-definitions>

@@ -1,0 +1,15 @@
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2011-09-14 14:30:13
+project --topLevelPackage org.gitorious.jcryptionspring.sample
+persistence setup --database HYPERSONIC_IN_MEMORY --provider HIBERNATE 
+entity --class ~domain.UserProfile
+field string --class ~domain.UserProfile --fieldName email
+field string --class ~domain.UserProfile --fieldName name
+field string --class ~domain.UserProfile --fieldName surname
+field date --class ~domain.UserProfile --fieldName birthday --type java.util.Calendar
+field boolean --class ~domain.UserProfile --fieldName enabled
+logging setup --level DEBUG 
+controller scaffold --class ~.web.UserProfileController 
+security setup
+dependency add --artifactId jcryption-spring --groupId org.gitorious.jcryptionspring --version 0.1.1-SNAPSHOT 
+quit
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2011-09-14 14:57:51

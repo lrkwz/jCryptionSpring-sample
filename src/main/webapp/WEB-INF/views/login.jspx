@@ -1,15 +1,6 @@
 <div xmlns:spring="http://www.springframework.org/tags" xmlns:fn="http://java.sun.com/jsp/jstl/functions" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
   <jsp:directive.page contentType="text/html;charset=UTF-8" />
   <jsp:output omit-xml-declaration="yes" />
-  <spring:url value="/EncryptionServlet?generateKeypair=true"  var="getKeysURL"/>
-    <script>
-/*<![CDATA[ */
-$(function() {
-	$("#f").jCryption({getKeysURL:"${getKeysURL}"});
-});
-/*]]>*/
-</script>
-
   <spring:message code="security_login_title" var="title" htmlEscape="false" />
   <util:panel id="title" title="${title}">
     <c:if test="${not empty param.login_error}">
@@ -27,7 +18,7 @@ $(function() {
       </p>
     </c:if>
     <spring:url value="/resources/j_spring_security_check" var="form_url" />
-    <form id="f" name="f" action="${fn:escapeXml(form_url)}" method="POST">
+    <form name="f" action="${fn:escapeXml(form_url)}" method="POST">
       <div>
         <label for="j_username">
           <spring:message code="security_login_form_name" />

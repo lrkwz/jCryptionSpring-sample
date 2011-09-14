@@ -3,17 +3,10 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_org_gitorious_jcryptionspring_sample_domain_UserProfile" object="${userprofile}" path="/userprofiles" z="V1M2kbmHxkf/shTxLhXc1VwrxNg=">
-        <field:display field="surname" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_surname" object="${userprofile}" z="+iJJvTOQSoY8Ry6eDjlm1Gtpq38="/>
+        <field:display field="email" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_email" object="${userprofile}" z="5WSH4//qcPRhJeNeje8jfqWdul4="/>
         <field:display field="name" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_name" object="${userprofile}" z="KMfq+drSKa+Q6sZYoYJCAElK7W4="/>
-        <field:display field="emailAddress" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_emailAddress" object="${userprofile}" z="fZMdMIdCfBP1zR5c5An5WvOUBWE="/>
-        <field:display field="password" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_password" object="${userprofile}" z="H8RW98KjxyeN0sn7G65Ee/xSMqg="/>
-        <field:display field="gender" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_gender" object="${userprofile}" z="pVB3c4t+MeuKPFYhsdmIA0+hP0E="/>
-        <field:display field="acceptServiceAgreement" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_acceptServiceAgreement" object="${userprofile}" z="SjfvIGFO6H/NNOU5YhuRDbehSxY="/>
-        <field:display field="acceptProductMarketing" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_acceptProductMarketing" object="${userprofile}" z="m2mAQ4Ua6BJUYXLzRMVRNCA7Q44="/>
-        <field:display field="acceptProfiling" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_acceptProfiling" object="${userprofile}" z="ZWRbcU7m1rcZLrlQODN3GNtZfo0="/>
-        <field:display field="cellPhone" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_cellPhone" object="${userprofile}" z="fHw4Hj32h+JKwnpDMUxZ4n4NTL8="/>
-        <field:display calendar="true" dateTimePattern="${userProfile_birthdate_date_format}" field="birthDate" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_birthDate" object="${userprofile}" z="Pw/xdvoOGUdJzdGYBwheuMVUa0s="/>
+        <field:display field="surname" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_surname" object="${userprofile}" z="+iJJvTOQSoY8Ry6eDjlm1Gtpq38="/>
+        <field:display calendar="true" dateTimePattern="${userProfile_birthday_date_format}" field="birthday" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_birthday" object="${userprofile}" z="3zJIeeX+VM4O6m3wIyeNoqvtHKQ="/>
         <field:display field="enabled" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_enabled" object="${userprofile}" z="dzNuSwR1lQC7qcYC0iKA31AgDsQ="/>
-        <field:display field="browsingLanguage" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_browsingLanguage" object="${userprofile}" z="wVNAB7GwUuUrqPLh3QaGYoFLNtU="/>
     </page:show>
 </div>

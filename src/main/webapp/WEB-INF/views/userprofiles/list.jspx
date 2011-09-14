@@ -4,12 +4,11 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:list id="pl_org_gitorious_jcryptionspring_sample_domain_UserProfile" items="${userprofiles}" z="I7GynQCAmMPTbWmzoH0iInBZ5Ss=">
         <table:table data="${userprofiles}" id="l_org_gitorious_jcryptionspring_sample_domain_UserProfile" path="/userprofiles" z="DYRoVZKlNrmyqf6aSo9A0ccpZaA=">
-            <table:column id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_surname" property="surname" z="yTGZrbO+jMYMzxTBevhPKBTZkHY="/>
+            <table:column id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_email" property="email" z="YWErs43Tk3nYq2tefRoaAWBXg5E="/>
             <table:column id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_name" property="name" z="YKsOEk8fyeYndd+zHJguuMVupnk="/>
-            <table:column id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_emailAddress" property="emailAddress" z="638ufekvLlNKQPqEYw2F6IKPVFI="/>
-            <table:column id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_password" property="password" z="ZhV6B5IrXwgaaEuyCh4duPDKioY="/>
-            <table:column id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_gender" property="gender" z="U+6GGTm3qRmXGmJgPiyt2CBugAQ="/>
-            <table:column id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_acceptServiceAgreement" property="acceptServiceAgreement" z="/zsM/8ToXm67jdZDjxURuhXa1lo="/>
+            <table:column id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_surname" property="surname" z="yTGZrbO+jMYMzxTBevhPKBTZkHY="/>
+            <table:column calendar="true" dateTimePattern="${userProfile_birthday_date_format}" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_birthday" property="birthday" z="dOOXBphtEgA4ahVViO9vkO7xPKc="/>
+            <table:column id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_enabled" property="enabled" z="Av/SB6HpHxt5FyY3T7RMCGmcTVg="/>
         </table:table>
     </page:list>
 </div>

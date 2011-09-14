@@ -100,7 +100,7 @@ privileged aspect UserProfileController_Roo_Controller {
     }
     
     void UserProfileController.addDateTimeFormatPatterns(Model uiModel) {
-        uiModel.addAttribute("userProfile_birthdate_date_format", DateTimeFormat.patternForStyle("S-", LocaleContextHolder.getLocale()));
+        uiModel.addAttribute("userProfile_birthday_date_format", DateTimeFormat.patternForStyle("M-", LocaleContextHolder.getLocale()));
     }
     
     String UserProfileController.encodeUrlPathSegment(String pathSegment, HttpServletRequest httpServletRequest) {
