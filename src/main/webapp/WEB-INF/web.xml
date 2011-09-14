@@ -71,7 +71,7 @@
     
 <filter>  
     <filter-name>DecryptParameters</filter-name>  
-    <filter-class>org.gitorious.jcryption.ParameterDecryptingFilter</filter-class>  
+    <filter-class>org.gitorious.jcryptionspring.ParameterDecryptingFilter</filter-class>  
 </filter>
     
 <filter-mapping>
