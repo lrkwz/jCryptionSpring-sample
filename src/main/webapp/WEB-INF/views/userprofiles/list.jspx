@@ -9,6 +9,7 @@
             <table:column id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_surname" property="surname" z="yTGZrbO+jMYMzxTBevhPKBTZkHY="/>
             <table:column calendar="true" dateTimePattern="${userProfile_birthday_date_format}" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_birthday" property="birthday" z="dOOXBphtEgA4ahVViO9vkO7xPKc="/>
             <table:column id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_enabled" property="enabled" z="Av/SB6HpHxt5FyY3T7RMCGmcTVg="/>
+            <table:column id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_preferredColor" property="preferredColor" z="YzeMjZSbvqwjZEZqi1g+KdGbfvc="/>
         </table:table>
     </page:list>
 </div>

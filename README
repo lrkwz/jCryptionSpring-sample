@@ -1,0 +1,9 @@
+This is an usage example for jCriptionSpring.
+
+It is supposed to be used against a local compiled SNAPSHOT version.
+Change to the desider released version in pom.xml
+
+Simply run mvn tomcat:run and point your rowser to http://localhost:8080/sample to start experimenting jCriptionSpring.
+
+You may wish to take a look of the crypted data been transferred when submitting the UserProfile form: enable Firebug for localhost and take a look at what happnes in Net panel (click the Persist button to see the first ajax call which retrives the publick key).
+

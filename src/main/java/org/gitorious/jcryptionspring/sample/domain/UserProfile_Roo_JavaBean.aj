@@ -6,6 +6,8 @@ package org.gitorious.jcryptionspring.sample.domain;
 import java.lang.Boolean;
 import java.lang.String;
 import java.util.Calendar;
+import java.util.List;
+import org.gitorious.jcryptionspring.sample.domain.Colors;
 
 privileged aspect UserProfile_Roo_JavaBean {
     
@@ -47,6 +49,22 @@ privileged aspect UserProfile_Roo_JavaBean {
     
     public void UserProfile.setEnabled(Boolean enabled) {
         this.enabled = enabled;
+    }
+    
+    public Colors UserProfile.getPreferredColor() {
+        return this.preferredColor;
+    }
+    
+    public void UserProfile.setPreferredColor(Colors preferredColor) {
+        this.preferredColor = preferredColor;
+    }
+    
+    public List<Colors> UserProfile.getColors() {
+        return this.colors;
+    }
+    
+    public void UserProfile.setColors(List<Colors> colors) {
+        this.colors = colors;
     }
     
 }

@@ -8,5 +8,7 @@
         <field:display field="surname" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_surname" object="${userprofile}" z="+iJJvTOQSoY8Ry6eDjlm1Gtpq38="/>
         <field:display calendar="true" dateTimePattern="${userProfile_birthday_date_format}" field="birthday" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_birthday" object="${userprofile}" z="3zJIeeX+VM4O6m3wIyeNoqvtHKQ="/>
         <field:display field="enabled" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_enabled" object="${userprofile}" z="dzNuSwR1lQC7qcYC0iKA31AgDsQ="/>
+        <field:display field="preferredColor" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_preferredColor" object="${userprofile}" z="0xfbzO0WPa2SeM9nGnNZNTYaIgk="/>
+        <field:display field="colors" id="s_org_gitorious_jcryptionspring_sample_domain_UserProfile_colors" object="${userprofile}" z="Lz5cFNKmIs+JFYg+0iw+UmoY3cU="/>
     </page:show>
 </div>
