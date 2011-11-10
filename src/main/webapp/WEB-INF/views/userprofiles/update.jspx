@@ -20,6 +20,7 @@ $("#userProfile").jCryption({getKeysURL:"${getKeysURL}"});
         <field:datetime dateTimePattern="${userProfile_birthday_date_format}" field="birthday" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_birthday" z="bCZgN5NDcI1LqP03lTNhFBoRr3k="/>
         <field:checkbox field="enabled" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_enabled" z="4h8Kl4k0Q0olaPZ8OmYX5htEToE="/>
         <field:select field="preferredColor" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_preferredColor" items="${colorses}" path="colorses" z="DRwBnAFnEFJiMeQ/UjozIdZBnAY="/>
-        <field:select multiple="true" field="colors" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_colors" items="${colorses}" path="colorses" z="BOqMhOneKmMfSzXjTOqsU6c0N/Q="/>
+        <field:select field="colors" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_colors" items="${colorses}" multiple="true" path="colorses" z="user-managed"/>
+        <field:input field="test" id="c_org_gitorious_jcryptionspring_sample_domain_UserProfile_test" z="ecxLMqGaBlV4jf3vuNAXKZqNKLI="/>
     </form:update>
 </div>

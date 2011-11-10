@@ -36,4 +36,6 @@ public class UserProfile {
 
 	@CollectionOfElements
 	private List<Colors> colors = new LinkedList<Colors>();
+
+	private String test;
 }

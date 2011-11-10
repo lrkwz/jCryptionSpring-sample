@@ -17,6 +17,7 @@ privileged aspect UserProfile_Roo_ToString {
         sb.append("Name: ").append(getName()).append(", ");
         sb.append("PreferredColor: ").append(getPreferredColor()).append(", ");
         sb.append("Surname: ").append(getSurname()).append(", ");
+        sb.append("Test: ").append(getTest()).append(", ");
         sb.append("Version: ").append(getVersion());
         return sb.toString();
     }

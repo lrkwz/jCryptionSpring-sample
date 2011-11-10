@@ -67,4 +67,12 @@ privileged aspect UserProfile_Roo_JavaBean {
         this.colors = colors;
     }
     
+    public String UserProfile.getTest() {
+        return this.test;
+    }
+    
+    public void UserProfile.setTest(String test) {
+        this.test = test;
+    }
+    
 }
